@@ -9,7 +9,6 @@ import Service.FranchiseService;
 
 /**
  *
- * @author salma elaakkouchi
  */
 public class BurgerKing implements FranchiseService {
 
