@@ -7,7 +7,6 @@ package Service;
 
 /**
  *
- * @author salma elaakkouchi
  */
 public interface FranchiseService {
     

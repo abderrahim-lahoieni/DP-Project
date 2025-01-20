@@ -12,7 +12,6 @@ import SubSystems.TacosLion;
 
 /**
  *
- * @author salma elaakkouchi
  */
 public class FranchiseServiceFacade {
        private FranchiseService TacosLion;

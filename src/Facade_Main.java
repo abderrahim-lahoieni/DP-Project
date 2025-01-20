@@ -9,7 +9,6 @@ import java.util.Scanner;
 
 /**
  *
- * @author salma elaakkouchi
  */
 public class Facade_Main {
 
