@@ -5,10 +5,7 @@
  */
 package Prototype;
 
-/**
- *
- * @author salma elaakkouchi
- */
+
 public abstract class SmartPhonePrototype implements Cloneable {
     private String model;
     private int price;

@@ -9,7 +9,7 @@ import Prototype.SmartPhonePrototype;
 
 /**
  *
- * @author salma elaakkouchi
+ *
  */
 public class Huawei extends SmartPhonePrototype {
     

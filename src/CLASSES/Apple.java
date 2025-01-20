@@ -8,8 +8,6 @@ package CLASSES;
 import Prototype.SmartPhonePrototype;
 
 /**
- *
- * @author salma elaakkouchi
  */
 public class Apple extends SmartPhonePrototype {
     
@@ -21,6 +19,6 @@ public class Apple extends SmartPhonePrototype {
     @Override
     public SmartPhonePrototype clone() throws CloneNotSupportedException {
         return (Apple) super.clone();
-    }
+    } 
     
 }
