@@ -9,7 +9,6 @@ import Profile.Profile;
 
 /**
  *
- * @author salma elaakkouchi
  */
 public interface ProfileIterator {
     boolean hasNext();

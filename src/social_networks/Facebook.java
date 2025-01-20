@@ -12,7 +12,6 @@ import java.util.List;
 
 /**
  *
- * @author salma elaakkouchi
  */
 public class Facebook implements SocialNetwork {
     private List<Profile> profiles;

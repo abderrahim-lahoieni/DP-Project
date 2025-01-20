@@ -15,7 +15,6 @@ import java.util.List;
 
 /**
  *
- * @author salma elaakkouchi
  */
 public class Iterator_Main {
 

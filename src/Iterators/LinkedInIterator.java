@@ -12,7 +12,6 @@ import social_networks.LinkedIn;
 
 /**
  *
- * @author salma elaakkouchi
  */
 public class LinkedInIterator implements ProfileIterator {
     private LinkedIn linkedIn;

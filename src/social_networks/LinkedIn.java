@@ -12,7 +12,6 @@ import java.util.List;
 
 /**
  *
- * @author salma elaakkouchi
  */
 public class LinkedIn implements SocialNetwork {
     private List<Profile> contacts;

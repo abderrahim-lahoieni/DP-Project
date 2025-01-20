@@ -9,7 +9,6 @@ import Iterators.ProfileIterator;
 
 /**
  *
- * @author salma elaakkouchi
  */
 public interface SocialNetwork {
     ProfileIterator createFriendsIterator(String profileEmail);

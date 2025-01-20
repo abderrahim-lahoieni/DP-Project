@@ -11,7 +11,6 @@ import java.util.Map;
 
 /**
  *
- * @author salma elaakkouchi
  */
 public class Profile {
     private String name;
