@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package iterator_profilesocialmedia_salma_mouna;
+
 import Profile.Profile;
 import java.util.Scanner;
 import social_networks.Facebook;
@@ -17,12 +17,12 @@ import java.util.List;
  *
  * @author salma elaakkouchi
  */
-public class Iterator_ProfileSocialMedia_Salma_Mouna {
+public class Iterator_Main {
 
     /**
      * @param args the command line arguments
      */
-   public static Scanner scanner = new Scanner(System.in);
+    public static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
         System.out.println("Please specify social network to target spam tool (default:Facebook):");
@@ -33,34 +33,29 @@ public class Iterator_ProfileSocialMedia_Salma_Mouna {
         SocialNetwork network;
         if (choice.equals("2")) {
             network = new LinkedIn(createTestProfiles());
-        }
-        else {
+        } else {
             network = new Facebook(createTestProfiles());
         }
 
         SocialSpammer spammer = new SocialSpammer(network);
-        spammer.sendSpamToFriends("salma.elaakkouchi@gmail.com",
-                "Hey! This is Salma's friend Mouna. Can you do me a favor and like this post [link]?");
-        spammer.sendSpamToCoworkers("mouna.elyounssi@gmail.com",
-                "Hey! This is Mouna's boss Salma. Mouna told me you would be interested in [link].");
+        spammer.sendSpamToFriends("lahoieni-Abderrahim@gmail.com",
+                "Hey! This is Abderrahim's friend Mohamed. Can you do me a favor and like this post [link]?");
+        spammer.sendSpamToCoworkers("elmaimouni-mohamed@gmail.com",
+                "Hey! This is Mohamed's boss Abderrahim. Mohamed told me you would be interested in [link].");
     }
 
     public static List<Profile> createTestProfiles() {
         List<Profile> data = new ArrayList<Profile>();
-        
-        data.add(new Profile("salma.elaakkouchi@gmail.com", "Salma EL AAKKOUCHI",
-                "friends:mouna.elyounssi@gmail.com", "friends:sara.elaakkouchi@gmail.com",
-                "asuna.yuuki@gmail.com"));
-        data.add(new Profile("mouna.elyounssi@gmail.com", "Mouna EL YOUNSSI", 
-                "friends:salma.elaakkouchi@gmail.com", "sara.elaakkouchi@gmail.com"));
-        data.add(new Profile("sara.elaakkouchi@gmail.com", "Sara EL AAKKOUCHI", 
+
+        data.add(new Profile("lahoieni-Abderrahim@gmail.com", "Abderrahim LAHOIENI",
+                "friends:elmaimouni-mohamed@gmail.com", "friends:ahmed-lahoieni@gmail.com",
+                "ahmed-elmaimouni@gmail.com"));
+        data.add(new Profile("elmaimouni-mohamed@gmail.com", "Mohamed ELMAIMOUNI",
+                "friends:lahoieni-Abderrahim@gmail.com", "ahmed-lahoieni@gmail.com"));
+        data.add(new Profile("ahmed-lahoieni@gmail.com", "Ahmed LAHOIENI",
                 "amine.elaakkouchi@gmail.com"));
-        data.add(new Profile("asuna.yuuki@gmail.com", "Asuna Yuuki", "salma.elaakkouchi@gmail.com"));
+        data.add(new Profile("ahmed-elmaimouni@gmail.com", "Ahmed ELMAIMOUNI",
+                "lahoieni-Abderrahim@gmail.com"));
         return data;
     }
-    
-    
-  }
-    
-
-
+}
