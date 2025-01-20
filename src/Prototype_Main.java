@@ -11,7 +11,6 @@ import Prototype.SmartPhonePrototype;
 
 /**
  *
- * @author salma elaakkouchi
  */
 public class Prototype_Main {
 
