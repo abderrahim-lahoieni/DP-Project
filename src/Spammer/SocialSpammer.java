@@ -11,7 +11,6 @@ import social_networks.SocialNetwork;
 
 /**
  *
- * @author salma elaakkouchi
  */
 public class SocialSpammer {
     public SocialNetwork network;
