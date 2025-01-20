@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package prototype_smartphone_salma_mouna;
 
 import CLASSES.Apple;
 import CLASSES.Huawei;
@@ -14,7 +13,7 @@ import Prototype.SmartPhonePrototype;
  *
  * @author salma elaakkouchi
  */
-public class Prototype_SmartPhone_Salma_Mouna {
+public class Prototype_Main {
 
     /**
      * @param args the command line arguments
