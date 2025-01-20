@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package franchise_facade_salma_mouna;
 
 import Facade.FranchiseServiceFacade;
 import java.util.Scanner;
@@ -12,7 +11,7 @@ import java.util.Scanner;
  *
  * @author salma elaakkouchi
  */
-public class Franchise_Facade_Salma_Mouna {
+public class Facade_Main {
 
     /**
      * @param args the command line arguments
